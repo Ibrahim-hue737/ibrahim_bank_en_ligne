@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau de bord - Banque Horizon:;,dcx</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Banque Horizon Benin</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="dashboard.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="transactions.html">Virements</a></li>
+                    <li class="nav-item"><a class="nav-link" href="profil.html">Mon Profil</a></li>
+                    <li class="nav-item"><a class="nav-link text-warning" href="index.html">Déconnexion</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h3 class="mb-4"> Bonjour, M. kifouli</h3>
+
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+                <div class="card border-0 shadow-sm p-3">
+                    <h6 class="text-muted">Compte Courant</h6>
+                    <h2 class="text-primary">4 520,00 €</h2>
+                    <small class="text-success">↑ +12% ce mois-ci</small>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card border-0 shadow-sm p-3">
+                    <h6 class="text-muted">Livret A</h6>
+                    <h2 class="text-dark">12 000,00 €</h2>
+                    <small class="text-muted">Taux : 3.00%</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-12">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-header bg-white py-3">
+                        <h5 class="mb-0 text-secondary">Dernières opérations</h5>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table align-middle">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Libellé</th>
+                                    <th class="text-end">Montant</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>12/02/2026</td>
+                                    <td>Supermarché Central</td>
+                                    <td class="text-end text-danger">- 45,20 €</td>
+                                </tr>
+                                <tr>
+                                    <td>10/02/2026</td>
+                                    <td>Virement Salaire</td>
+                                    <td class="text-end text-success">+ 2 100,00 €</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <footer class="pied-de-page bg-dark text-white pt-5 pb-3 mt-5">
+        <div class="container">
+            <div class="row g-4">
+               
+                <div class="col-md-4">
+                    <h5 class="fw-bold text-primary mb-3">Banque Horizon</h5>
+                    <p class="small text-secondary">
+                        Votre partenaire de confiance pour une gestion bancaire sécurisée et simplifiée au quotidien.
+                    </p>
+                </div>
+    
+                <div class="col-md-4 text-md-center">
+                    <h6 class="fw-bold mb-3">Navigation</h6>
+                    <ul class="list-unstyled small">
+                        <li class="mb-2"><a href="dashboard.html" class="text-secondary text-decoration-none">Tableau de bord</a></li>
+                        <li class="mb-2"><a href="transactions.html" class="text-secondary text-decoration-none">Virements</a></li>
+                        <li class="mb-2"><a href="profil.html" class="text-secondary text-decoration-none">Mon Profil</a></li>
+                    </ul>
+                </div>
+    
+                <div class="col-md-4 text-md-end">
+                    <h6 class="fw-bold mb-3">Sécurité</h6>
+                    <p class="small text-secondary mb-1">Centre d'assistance : 0800 123 456</p>
+                    <div class="badge bg-success py-2">Espace Sécurisé 256-bit</div>
+                </div>
+    
+            </div>
+    
+            <hr class="my-4 border-secondary">
+    
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="small text-secondary mb-0">
+                        &copy; 2026 Banque Horizon - Tous droits réservés.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
